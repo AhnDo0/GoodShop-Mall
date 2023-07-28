@@ -1,0 +1,44 @@
+.adminHeadWrapper{
+    background-color: #2D2D2D;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 5px 15px;
+}
+
+.LogoWrapper{
+    display: flex;
+}
+
+#adminLogo{
+    margin-right: 10px;
+    height: 100%;;
+}
+
+#adminTitle{
+    height: 100%;
+}
+
+
+.ServiceWrapper{
+    display: flex;
+    align-items: center;
+}
+
+.MemberName{
+    color: #ACACAC;
+    font-size: 1rem;
+    position: relative;
+    right: 10rem;
+}
+
+.AdminServiceBtn{
+    background-color: transparent;
+    color: #ACACAC;
+    height: 30px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}

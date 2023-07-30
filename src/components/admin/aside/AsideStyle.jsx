@@ -1,0 +1,84 @@
+import styled from "styled-components";
+
+export const AsideWrapper = styled.section`
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+  margin: 0px;
+  background-color: #2d2d2d;
+`;
+
+export const ProfileWrapper = styled.div`
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #383838;
+  position: relative;
+`;
+
+export const ProfileImage = styled.img`
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin: 10px 0px;
+`;
+
+export const CompanyName = styled.h1`
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 10px 0px;
+`;
+
+export const Authority = styled.h2`
+  font-size: 1rem;
+  color: #c2c2c2;
+  margin: 5px 0px;
+`;
+
+export const Setting = styled.div`
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+`;
+
+export const DashboardWrapper = styled.div`
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+`;
+
+export const DashboardTitle = styled.h1`
+  font-size: 1.2rem;
+  color: #fff;
+`;
+
+export const DashboardList = styled.ul`
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+`;
+
+export const DashboardListItem = styled.li`
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+`;

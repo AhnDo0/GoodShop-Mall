@@ -11,18 +11,13 @@ import {
   DropdownItem,
 } from "./DropdownWrapperStyle";
 
-function DropdownWrapper({ title }) {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+function DropdownWrapper({ title, isOpen, toggleDropdown }) {
   return (
     <>
       <DropdownTitleWrapper>
         <DropdownTitle>{title}</DropdownTitle>
         <NotiUpdated>N</NotiUpdated>
-        <DropdownBtn onClick={toggleDropdown}>></DropdownBtn>
+        <DropdownBtn onClick={toggleDropdown}>&gt;</DropdownBtn>
       </DropdownTitleWrapper>
       <DropdownListWrapper open={isOpen}>
         {/* 리스트로 dropdown list title 가져올 것 */}
@@ -49,6 +44,8 @@ function DropdownWrapper({ title }) {
 
 DropdownWrapper.propTypes = {
   title: PropTypes.string.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+  toggleDropdown: PropTypes.func.isRequired,
 };
 
 export default DropdownWrapper;

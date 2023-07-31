@@ -52,6 +52,7 @@ function Aside() {
             {itemTitles.map((title) => (
               <DashboardListItem key={title}>
                 <DropdownWrapper
+                  key={title}
                   title={title}
                   isOpen={openDropdown === title}
                   toggleDropdown={() => toggleDropdown(title)}

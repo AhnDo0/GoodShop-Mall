@@ -64,7 +64,7 @@ export const DropdownItem = styled.div`
   font-size: 1.2rem;
 `;
 
-export const NotiCount = styled.div`
+export const UpdateCount = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

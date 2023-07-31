@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AsideWrapper = styled.section`
   width: 300px;
-  height: 100vh;
+  height: 80em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -51,7 +51,7 @@ export const Setting = styled.div`
 
 export const DashboardWrapper = styled.div`
   width: 100%;
-  height: 75%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +60,11 @@ export const DashboardWrapper = styled.div`
 `;
 
 export const DashboardTitle = styled.h1`
-  font-size: 1.2rem;
+  width: 100%;
+  position: relative;
+  margin-left: 60px;
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #fff;
 `;
 
@@ -69,7 +73,7 @@ export const DashboardList = styled.ul`
   height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   position: relative;
   margin: 10px;

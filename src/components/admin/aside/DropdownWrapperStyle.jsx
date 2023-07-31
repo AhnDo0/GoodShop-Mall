@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import downIcon from "../../../asset/icon/dropdown.png";
+import upIcon from "../../../asset/icon/dropup.png";
 
 export const DropdownTitleWrapper = styled.div`
   width: 100%;
@@ -32,6 +34,8 @@ export const DropdownBtn = styled.button`
   align-items: center;
   background-color: transparent;
   color: white;
+  background: ${({ open }) => (open ? `url(${upIcon})` : `url(${downIcon})`)}
+    no-repeat center;
 `;
 
 export const DropdownListWrapper = styled.ul`

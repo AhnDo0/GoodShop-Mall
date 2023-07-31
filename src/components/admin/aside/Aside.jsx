@@ -44,7 +44,7 @@ function Aside() {
           <ProfileImage src="https://picsum.photos/200/300" alt="profile" />
           <CompanyName>월드비어마켓</CompanyName>
           <Authority>최고관리자(홍길동)</Authority>
-          <Setting>아이콘</Setting>
+          <Setting />
         </ProfileWrapper>
         <DashboardWrapper>
           <DashboardTitle>종합현황</DashboardTitle>

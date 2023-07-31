@@ -26,7 +26,7 @@ function DropdownWrapper({ title, isOpen, toggleDropdown }) {
       <DropdownTitleWrapper>
         <DropdownTitle open={isOpen}>{title}</DropdownTitle>
         <NotiUpdated>N</NotiUpdated>
-        <DropdownBtn onClick={toggleDropdown}>&gt;</DropdownBtn>
+        <DropdownBtn onClick={toggleDropdown} open={isOpen} />
       </DropdownTitleWrapper>
       <DropdownListWrapper open={isOpen}>
         {pageTitles.map((t, idx) => (

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import settingIcon from "../../../asset/icon/setting.png";
 
 export const AsideWrapper = styled.section`
   width: 300px;
@@ -42,12 +43,14 @@ export const Authority = styled.h2`
   margin: 5px 0px;
 `;
 
-export const Setting = styled.div`
+export const Setting = styled.button`
   display: flex;
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #fff;
+  width: 30px;
+  height: 30px;
+  background: url(${settingIcon}) no-repeat center;
 `;
 
 export const DashboardWrapper = styled.div`

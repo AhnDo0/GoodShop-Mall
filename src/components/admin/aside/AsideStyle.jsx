@@ -20,6 +20,7 @@ export const ProfileWrapper = styled.div`
   align-items: center;
   background-color: #383838;
   position: relative;
+  padding: 20px;
 `;
 
 export const ProfileImage = styled.img`

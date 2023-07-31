@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import downIcon from "../../../asset/icon/dropdown.png";
-import upIcon from "../../../asset/icon/dropup.png";
+import downIcon from "../../../../assets/dropdown.png";
+import upIcon from "../../../../assets/dropup.png";
 
 export const DropdownTitleWrapper = styled.div`
   width: 100%;

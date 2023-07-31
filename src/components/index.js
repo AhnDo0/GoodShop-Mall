@@ -6,5 +6,6 @@
 // ex)
 // import { 컴포넌트명 } from "../components";
 
-export { default as AdminHeader } from "./admin/header/AdminHeader";
-export { default as AdminFooter } from "./admin/footer/AdminFooter";
+export { default as AdminHeader } from "./admin/layout/header/AdminHeader";
+export { default as AdminFooter } from "./admin/layout/footer/AdminFooter";
+export { default as Aside } from "./admin/layout/aside/Aside";

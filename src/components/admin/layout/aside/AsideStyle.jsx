@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import settingIcon from "../../../asset/icon/setting.png";
+import settingIcon from "../../../../assets/setting.png";
 
 export const AsideWrapper = styled.section`
   width: 300px;
-  height: 80em;
+  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

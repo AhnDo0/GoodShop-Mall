@@ -1,11 +1,13 @@
-
+import { AdminFooter, AdminHeader } from "../components";
 
 function Test() {
-    return(
-        <>
-            <h1>Test</h1>
-        </>
-    );
+  return (
+    <>
+      <AdminHeader />
+      <h1>Test</h1>
+      <AdminFooter />
+    </>
+  );
 }
 
 export default Test;

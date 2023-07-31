@@ -8,13 +8,16 @@ export const PageContainer = styled.div`
   justify-content: space-between;
   width: 100%;
 `;
+import { AdminFooter, AdminHeader } from "../components";
 
 function Test() {
   return (
     <>
       <PageContainer>
+        <AdminHeader />
         <Aside />
         <h1>Test</h1>
+        <AdminFooter />
       </PageContainer>
     </>
   );

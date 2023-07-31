@@ -1,4 +1,4 @@
-import { AdminHeader } from "../components";
+import { AdminFooter, AdminHeader } from "../components";
 
 
 function Test() {
@@ -6,6 +6,7 @@ function Test() {
         <>
             <AdminHeader/>
             <h1>Test</h1>
+            <AdminFooter/>
         </>
     );
 }

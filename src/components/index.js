@@ -7,3 +7,4 @@
 // import { 컴포넌트명 } from "../components";
 
 export { default as AdminHeader } from "./admin/header/AdminHeader";
+export { default as AdminFooter } from "./admin/footer/AdminFooter";

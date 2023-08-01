@@ -1,7 +1,7 @@
-import Logo from "../../../assets/Logo.png";
-import AdminTitle from "../../../assets/AdminTitle.png";
+import Logo from "../../../../assets/Logo.png";
+import AdminTitle from "../../../../assets/AdminTitle.png";
 
-import "../header/AdminHeader.css";
+import "./AdminHeader.css";
 
 function AdminHeader() {
   return (

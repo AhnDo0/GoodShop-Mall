@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 
-import "../footer/AdminFooter.css";
+import "./AdminFooter.css";
 
 function AdminFooter() {
   return (
